@@ -20,7 +20,7 @@ const OrderForm = ({ selectedProduct, setOrder }) => {
     event.preventDefault();
 
     if (!totalPrice) {
-      alert('Yuo order is empty');
+      alert('You order is empty');
       return;
     }
 
